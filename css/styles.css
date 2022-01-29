@@ -1,0 +1,186 @@
+.hero-heading {  
+    font-family: 'Roboto', sans-serif; 
+    font-size: 5rem; 
+    line-height: 1.5; 
+    font-weight: 900;
+}
+@media (max-width: 1028px){
+    .hero-heading {  
+        text-align: center;
+    }
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', snas-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding-inline: 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: light;
+}
+.download-btn {
+    margin: 5% 3% 5% 0;
+    font: 'Monsterrat';
+}
+@media (max-width: 1028px){
+    .download-btn {  
+        margin-block: 5%;
+    }
+}
+@media (max-width: 1028px){
+    .hero-title-holder,.hero-image-holder {  
+        text-align: center;
+    }
+}
+.hero-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    right: 22.5%;
+}
+@media (max-width: 1028px){
+    .hero-image{
+        all: unset;
+    }
+}
+#features{
+    padding: 5rem 6rem 5rem 6rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.feature-column{
+    text-align: center;
+}
+.feat-icon {
+    font-size: 4rem;
+    padding-block: 1.5rem;
+    color: #ef8172;
+}
+
+.feat-icon :hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+.feat-title{
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.feat-para{
+    margin-inline: auto;
+    width: 60%;
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.testimonial-carousel{
+    
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-title{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.pricing-para{
+    color: #8f8f8f;
+    font-size: 2rem;
+}
+.card{
+    text-align: center;
+}
+.card-out-btn{
+    border-color: #ef8172;
+    color: #ef8172;
+}
+.card-btn{
+    background-color: #ef8172;
+    border: unset;
+}
+.card-body{
+    color: #8f8f8f;
+}
+.card-body-heading{
+    color:#000;
+}
+.card-col{
+    padding: 3% 2%;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 6% 25%;
+}
+.cta-title{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    margin-bottom:10%;
+}
+.cta-dload{
+    padding:2%;
+    margin-inline: 2%;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 6%;
+    color: #8f8f8f;
+}
+.icon-holder{
+    display: inline-block;
+}
+.footer-social-media{
+    margin-inline: 0.8rem;
+    color: #000;
+    font-size: 1.25rem;
+}
